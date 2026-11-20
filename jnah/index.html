@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Juanplav www.juanplav.com"/>
+	<title>Juan needs a haircut</title>
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css"  />
+	<link rel="shortcut icon" href="css/images/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/modernizr.js" language="javascript" type="text/javascript"></script>
+    <script src="js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
+    <script src="js/delay.js" language="javascript" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript">
+    	function sizeContent() {
+		    var alto = $(window).height();
+		    var nuevoalto = alto + "px";
+		    $("body").css("background-size", nuevoalto);
+		}
+    	$(window).resize(sizeContent);
+    	$(document).ready(sizeContent());
+    </script>
+</head>
+<body>
+		<nav>
+			<span>MENU</span>
+			<ul>
+				<li><a class="current" href="index.html">Home</a></li>
+				<li><a href="juan.html">Juan</a></li>
+				<li><a href="style.html">Style</a></li>
+				<li><a href="cut.html">Cut</a></li>
+				<li><a href="more.html">+</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<h1><a href="index.html">Juan needs a haircut</a>
+			</h1>
+
+			<a class="logo" href="index.html"></a>
+		</header>
+
+		<footer>
+			<a class="tijera"></a>
+			<a class="copy" href="http://www.juanplav.com">BY JUANPLAV</a>
+		</footer>
+</body>
+</html>
