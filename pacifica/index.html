@@ -1,0 +1,497 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<!--[if lte IE 9]> 
+	<script language="JavaScript" type="text/javascript">
+	var pagina="http://www.juanplav.com/pv6/ie.html"
+	function redireccionar(){
+		location.href=pagina
+	} 
+	setTimeout ("redireccionar()", 1);
+    </script>
+	<![endif]-->
+
+	<meta charset="utf-8" />
+	<title>Pacífica Diseño</title>
+	<meta name="author" content="Juanplav www.juanplav.com"/>
+	<meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="all" href="css/estilo.css"  />
+	<link rel="shortcut icon" href="css/images/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,700' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.js" type="text/javascript" language="javascript"></script>
+	<script src="js/jquery.mousewheel.js" type="text/javascript" language="javascript"></script>
+	<script src="js/jquery.nicescroll.js" type="text/javascript" language="javascript"></script>
+	<script src="js/scripts.js" type="text/javascript" language="javascript"></script>
+	<script type="text/javascript" language="javascript" >
+	$(window).resize(sizeContent);
+
+	$(document).ready(function() {
+		var actualview;
+		sizeContent();
+		external();
+		correos();
+		ArrowsClick();
+			
+		$('.homequote').html(quotes[Math.floor(Math.random()*quotes.length)]);
+		
+		$("body").niceScroll({cursorcolor:"white",cursoropacitymin:"1",cursorborderradius:"0px",autohidemode:false, cursorborder:"0px",zindex:"1", background:"rgba(0,0,0,0.2)"});		
+			
+		$('.work').each(function(index) {
+			var dir=$(this).attr('href');
+				$(this).children('img').attr('alt',dir);
+				$(this).addClass('fancy');
+		});
+			
+	    $("nav ul li a, #logo a").click(function() {
+	        $("html, body").animate({
+	            scrollTop: $($(this).attr("href")).offset().top + "px"
+	        }, {
+	            duration: 1500,
+	            easing: "swing"
+	        });
+	        return false;
+	    });
+
+	    $('.filtro a').click(function () {	    	
+			$('.filtro a').removeClass('current');
+			$(this).addClass('current');			
+			var id=$(this).attr('id');
+			$('.'+id).addClass('fancy').animate({
+				opacity:1
+			}).each(function(index) {
+				$(this).attr('href',$(this).children('img').attr('alt'));
+			});
+			if(id!="work")
+			{
+				$('.works a').not('.'+id).removeClass('fancy').attr('href','#hacemos').animate({
+				opacity:0.2
+				});
+			}
+		});
+		
+		$('.close').click(function(event){
+			event.preventDefault();
+			$(".workview").fadeOut(function(){					
+				$('.desc').empty();
+				$('.detail').empty();							
+			});							
+		});
+
+		function SRCImage(srcImage)
+		{
+			if(srcImage.indexOf("/web/") != -1)
+			{
+				srcImage = srcImage.substring(srcImage.indexOf("/web/")+5,srcImage.lastIndexOf("/"));
+			}
+			if(srcImage.indexOf("/marca/") != -1)
+			{
+				srcImage = srcImage.substring(srcImage.indexOf("/marca/")+7,srcImage.lastIndexOf("/"));
+			}
+			if(srcImage.indexOf("/video/") != -1)
+			{
+				srcImage = srcImage.substring(srcImage.indexOf("/video/")+7,srcImage.lastIndexOf("/"));
+			}
+			return srcImage;
+		}
+
+		function ArrowsClick(){
+		    var Element=$(".works > a").eq(actualview);
+		    if(Element.hasClass('fancy'))
+		        {
+		            $('.desc').empty();
+		            $('.detail').empty();       
+		            CallXmlById(SRCImage(Element.find('img').attr('src')));
+		            $('.desc').fadeIn();
+		            $('.detail').fadeIn();
+		        }
+		}
+		
+		$('a.work').click(function(event){
+			event.preventDefault();
+			if($(this).hasClass('fancy'))
+			{			
+				actualview=$(this).parent().children().index(this);
+				var srcImage = $(this).find('img').attr('src');			
+				CallXmlById(SRCImage(srcImage));
+				$(".workview").fadeIn();
+			}
+		});
+		
+		$('a.arrow').click(function(event){
+		event.preventDefault();
+		if($(this).hasClass('left'))
+		{
+			if(actualview!=0){
+				actualview = actualview-1;
+				ArrowsClick();
+			}
+		}
+		if($(this).hasClass('right'))
+		{
+			if(actualview!=$('.works').children('a').index($('.works a').last()))
+			{
+				actualview=actualview+1;
+				ArrowsClick();
+			}
+		}
+		});
+	});
+	
+	</script>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a class="minilogo" href="#home"><span>inicio</span></a></li>
+			<li><a class="somos" href="#somos">somos</a></li>
+			<li><a class="hacemos" href="#hacemos">hacemos</a></li>
+			<li><a class="creamos" href="#creamos">creamos</a></li>
+		</ul>
+	</nav>		
+
+	<section id="home">
+		<h1>Pacífica Diseño</h1>
+		<div id="logo">
+			<a href="#somos"><img src="css/images/logo.png" align="center"/>
+			</a>
+		</div>
+		<span class="homequote">
+			La inspiración es la semilla,<br>el diseño es su fruto.
+		</span>
+	</section>
+
+	<div id="transicion1">
+	</div>
+
+	<section id="somos">
+		<h2>
+			somos una agencia digital.
+		</h2>
+		<div class="col1">
+			<p>Somos una empresa integradradora de <b>comunicación, diseño y estrategia</b> especializada en el uso las herramientas TICS para generar conocimiento y entretenimiento.</p>
+			<p>Nuestra empresa se especializa en comunicar las cualidades de <b>las marcas, los productos y servicios</b> de nuestros clientes a través de experiencias interactivas y audiovisuales, que buscan resultados de alto impacto que se transformen en soluciones efectivas y rentables para Pacífica y sus clientes.</p>
+			<p>Ofrecemos soluciones integrales que pueden evaluar en tiempo real los índices de retorno de su inversión, el nivel de impacto de sus campañas y promociones, así como la fidelidad y el comportamiento de los clientes.</p>
+			<p>Adicionalmente le ofrecemos la flexibilidad de poder hacer cambios inmediatos en los contenidos publicados teniendo un control total de la información estratégica para la toma de decisiones con agilidad y eficiencia.</p>
+		</div>
+		<div class="col2">
+			<a class="staff staffleft" href="#somos">
+				<img src="images/somos1.png"/>
+				<div class="bio">
+					<span>
+						Esteban Uribe Villa
+						<small>PRODUCTOR EJECUTIVO</small>
+						<small class="estudios">Diseñador Gráfico U.P.B (2004)</small>
+					</span>
+					<p>Experto en marcas, sistemas gráficos y medios digitales del módulo de Imagen Global de la Universidad Pontificia Bolivariana con más de cinco años de experiencia en las áreas de diseño, producción, control de calidad, servicio al cliente, gestión de proyectos (de carácter privado y público) en la industria del diseño gráfico.</p>
+					<span class="mailto">estebanu[at]pacifica[dot]co</span>
+				</div>
+			</a>
+			<a class="staff staffleft" href="#somos">
+				<img src="images/somos2.png"/>
+				<div class="bio">
+					<span>
+						Camilo Estrada
+						<small>DIRECTOR WEB</small>
+						<small class="estudios">Diseñador Gráfico FUBA</small>
+					</span>
+					<p>Diseñador web con 5 años de experiencia en liderazgo de proyectos web interdisciplinarios. Especialista en estrategias de marketing online, administración de proyectos, experiencia de usuario, Search Engine Optimization y Search Engine Marketing. Interesado en utilizar la tecnología para desarrollar aplicaciones atractivas, útiles y eficientes para los clientes y memorables para los usuarios.</p>
+					<span class="mailto">camilo[at]pacifica[dot]co</span><i>@klamylo</i>
+				</div>
+			</a>
+			<a class="staff staffleft" href="#somos">
+				<img src="images/somos3.png"/>
+				<div class="bio">
+					<span>
+						Felipe Gutiérrez
+						<small>DIRECTOR MARCA</small>
+						<small class="estudios">Diseñador Gráfico U.P.B (2001)</small>
+					</span>
+					<p>Ilustrador, experto en manejo gráfico y tipográfico con más de 7 años de experiencia. Actualmente opera en las áreas de marca y web desempeñando las funciones de creativo y maquetador web. Ha trabajado como docente de cátedra para la Universidad Pontificia Bolivariana, Colegiatura colombiana de diseño y La Fundación Universitaria Bellas Artes en las materias de tipografía y nucleo básico de diseño.</p>
+					<span class="mailto">felipe[at]pacifica[dot]co</span><i>@felipegutz</i>
+				</div>
+			</a>
+			<a class="staff staffleft" href="#somos">
+				<img src="images/somos4.png"/>
+				<div class="bio">
+					<span>
+						Lina María Gamboa
+						<small>SECRETARIA GENERAL</small>
+						<small class="estudios">Técnica en secretariado Cedecomputo (2006)</small>
+					</span>
+					<p>Es la mano derecha de la gerencia en pacífica y el apoyo logístico de la empresa, así como el componente femenino de Pacífica, siempre pendiente y de cara amable hacia los clientes y proveedores.</p>
+					<span class="mailto">linag[at]pacifica[dot]co</span>
+				</div>
+			</a>
+			<a class="staff" href="#somos">
+				<img src="images/somos5.png"/>
+				<div class="bio">
+					<span>
+						Esteban Duperly P.
+						<small>DIRECTOR GENERAL</small>
+						<small class="estudios">Comunicador Social U.P.B.(2002)</small>
+					</span>
+					<p>Comunicador social de la UPB de Medellín, graduado con mención de honor para trabajo de grado. Asistente de dirección de dos largometrajes colombianos. Profesor de After Effects de la Facultad de Artes Visuales del Instituto de Bellas Artes y fotógrafo de naturaleza aficionado. Actualmente es gerente y director de animación y video de Pacífica.</p>
+					<span class="mailto">eduperly[at]pacifica[dot]co</span><i>@e_duperly</i>
+				</div>
+			</a>
+			<a class="staff" href="#somos">
+				<img src="images/somos6.png"/>
+				<div class="bio">
+					<span>
+						Francisco López
+						<small>INGENIERO</small>
+						<small class="estudios">Ingeniero Informático (2013)</small>
+					</span>
+					<p>Cabeza al mando del área de ingeniería de Pacífica. Un maestro del código, en múltiples lenguajes y algunas de las diversas aplicaciones de éste.</p>
+					<span class="mailto">francisco.lopez[at]planeo[dot]co</span>
+				</div>
+			</a>
+			<a class="staff" href="#somos">
+				<img src="images/somos7.png"/>
+				<div class="bio">
+					<span>
+						Jorge Andrés Cano
+						<small>DISEÑADOR</small>
+						<small class="estudios">Diseñador Visual (2011)</small>
+					</span>
+					<p>Diseñador visual, especialista en el área de ilustración digital, con experiencia en el área web y estudios en el diseño para móviles y aplicaciones.</p>
+					<span class="mailto">jorge.cano[at]pacifica[dot]co</span><i>@andyyour</i>
+				</div>
+			</a>
+			<a class="staff" href="#somos">
+				<img src="images/somos8.png"/>
+				<div class="bio">
+					<span>
+						Juan David Nicholls
+						<small>INGENIERO</small>
+						<small class="estudios">Ingeniero de Sistemas (2013)</small>
+					</span>
+					<p>Ingeniero de sistemas próximo a graduarse. Amante del jQuery y desarrollador apasionado, enfocado en el área web.</p>
+					<span class="mailto">juandavid[at]planeo[dot]co</span>
+				</div>
+			</a>
+			<a class="staff" href="#somos">
+				<img src="images/somos9.png"/>
+				<div class="bio">
+					<span>
+						Juan Pablo Plata Vera
+						<small>DISEÑADOR</small>
+						<small class="estudios">Diseñador Visual (2012)</small>
+					</span>
+					<p>Diseñador próximo a graduarse. Actualmente practicante en la empresa, enamorado del CSS3, de las maravillas del HTML5 y el diseño responsable. Geek en crecimiento.</p>
+					<span class="mailto">pablo[at]pacifica[dot]co</span><i>@juanplav</i>
+				</div>
+			</a>
+		</div>
+
+		<q>We love the Internet, therefore, we hate Explorer.</q>
+		<div class="redes">
+				<a href="http://www.facebook.com/pacificadsn" target="blank">Facebook</a>
+				<a href="http://www.twitter.com/pacificadsn" target="blank">Twitter</a>
+				<a href="mailto:hola@pacifica.co" target="blank">E-mail</a>
+		</div>
+
+	</section>
+
+	<div id="transicion2">
+	</div>
+
+	<section id="hacemos">
+		<h2>
+			nuestro trabajo:
+		</h2>
+
+		<div class="filtro">
+			<a href="#hacemos" class="current" id="work">TODOS</a>
+			<a href="#hacemos" id="wweb">WEB</a>
+			<a href="#hacemos" id="wmarca">MARCA</a>
+			<a href="#hacemos" id="wvideo">VIDEO</a>
+		</div>
+		<div class="workview" style="display:none;">
+			<a href="" class="close"></a>
+			<a href="" class="arrow left"></a>
+			<a href="" class="arrow right"></a>    
+			<div class="desc">
+			</div>
+			<div class="detail">
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="works">
+				<a href="" class="work wweb">
+                	<span></span>
+					<img src="works/web/caminataavon/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/somatec/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/bustamante/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/appepm/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/powerchips/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/optima/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+                	<span></span>
+					<img src="works/web/provimarcas/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/cys/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/ada/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/arvi/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/univentas/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/osl/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/molinos1/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/bass/0.jpeg" />
+				</a>
+				<a href=""   class="work wweb">
+					<span></span>
+                    <img src="works/web/anita/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/kinky/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/ilustracion/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/logos/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/odelsa/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/doblevia/0.jpeg" />
+				</a>
+				<a href=""  rel="marca" class="work wmarca">
+					<span></span>
+                    <img src="works/marca/arkha/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/selva/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/powerchips2/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/tcc/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/cubik/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/perfectbra/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/leonisa/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/nadja/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/contreebute/0.jpeg" />
+				</a>
+				<a href=""  rel="video" class="work wvideo">
+					<span></span>
+                    <img src="works/video/minichips/0.jpeg" />
+				</a>
+		</div>
+
+		<q>Bienvenido a la era digital donde las marcas evolucionan a la velocidad de la tecnología.</q>
+	</section>
+
+	<div id="transicion3">
+	</div>
+
+	<section id="creamos">
+		<h2>
+			creamos ideas de las buenas.
+		</h2>
+		<div class="col3">
+			<p>Pacífica integra su conocimiento en <b>diseño digital</b> y los conceptos estratégicos de su negocio a un desarrollo de marca, logrando nuevos y mejores resultados con el uso de herramientas interactivas y audiovisuales que generan posicionamiento, memorabilidad y permanencia en la mente de los cibernautas. De esta manera logramos resultados efectivos y rentables, factores indispensables para alcanzar el éxito comercial en esta era digital.</p>
+			<div id="servicios">
+				<a href="#creamos">Diseño gráfico</a>
+				<a href="#creamos">Diseño web</a>
+				<a href="#creamos">Desarrollo web</a>
+				<a href="#creamos">Community management</a>
+				<a href="#creamos">Aplicaciones online</a>
+				<a href="http://www.planeo.co" target="_blank">Administrador de contenido</a>
+			</div>
+		</div>
+		<div class="col4">
+			<a href="#creamos" class="servicio">
+				diseño<br>gráfico
+				<span style="background-image:url(images/serv1.png)"></span>
+			</a>
+			<a href="#creamos" class="servicio">
+				diseño<br>web
+				<span style="background-image:url(images/serv2.png)"></span>
+			</a>
+			<a href="#creamos" class="servicio">
+				desarrollo<br>web
+				<span style="background-image:url(images/serv3.png)"></span>
+			</a>
+			<a href="#creamos" class="servicio">
+				community<br>management
+				<span style="background-image:url(images/serv4.png)"></span>
+			</a>
+			<a href="#creamos" class="servicio">
+				aplicaciones<br>online
+				<span style="background-image:url(images/serv5.png)"></span>
+			</a>
+			<a href="http://www.planeo.co" target="_blank" class="servicio">
+				<b class="new">+ Recomendado</b>
+				administrador<br>de contenido
+				<span style="background-image:url(images/serv6.png)"></span>
+			</a>
+		</div>
+	</section>
+
+
+</body>
+</html>

@@ -1,0 +1,726 @@
+<works>
+	<work id="caminataavon">
+		<title>Caminata Avon</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Avon Colombia</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.facebook.com/avoncolombia</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Diseño y desarrollo de aplicación en Facebook para Avon Colombia, Ecuador y Perú.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>ASP.NET</tool>
+			<tool>Facebook Javascript SDK</tool>
+		</tools>
+		<images>			
+			<image>works/web/caminataavon/1.jpeg</image>
+			<image>works/web/caminataavon/2.jpeg</image>
+			<image>works/web/caminataavon/3.jpeg</image>
+			<image>works/web/caminataavon/4.jpeg</image>
+			<image>works/web/caminataavon/5.jpeg</image>
+		</images>
+	</work>
+	
+	<work id="somatec">
+		<title>Somatec</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Somatec</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.somatec.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página básica informativa con un diseño limpio que expresa solidez y frescura.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>HTML</tool>
+			<tool>CSS</tool>
+			<tool>FLASH</tool>
+			<tool>JQUERY</tool>
+		</tools>
+		<images>			
+			<image>works/web/somatec/1.jpeg</image>
+			<image>works/web/somatec/2.jpeg</image>
+			<image>works/web/somatec/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="bustamante">
+		<title>Catalina Bustamante</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Catalina Bustamante</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.catalinabustamante.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página de uso informativo, teniendo como cualidad la publicación de las noticias más relevantes de la marca.Contiene un módulo de productos para la muestra de sus productos.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/bustamante/1.jpeg</image>
+			<image>works/web/bustamante/2.jpeg</image>
+			<image>works/web/bustamante/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="appepm">
+		<title>Aplicativo Facebook EPM</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Empresas Públicas de Medellín / McCann Erickson Colombia</content>
+			</group>
+			<group>
+				<title>Estado</title>
+				<content>Offline</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Creación de un aplicativo, para la feria de las flores del 2011, invitando a las personas a enviar flores a sus seres queridos con mensajes alusivos a la amistad y al amor, teniendo la posibilidad de acceder posiblemente a premios.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>HTML</tool>
+			<tool>FLASH</tool>
+		</tools>
+		<images>			
+			<image>works/web/appepm/1.jpeg</image>
+			<image>works/web/appepm/2.jpeg</image>
+			<image>works/web/appepm/3.jpeg</image>
+			<image>works/web/appepm/4.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="powerchips">
+		<title>Aplicativo Facebook MiniChips</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Grupo Nutresa, Minichips</content>
+			</group>
+			<group>
+				<title>Estado</title>
+				<content>Offline</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Creación de un aplicativo en facebook para la campaña interna "POWERCHIPS" en el fanpage de El Nichi, invitando a las personas a subir sus videos donde mostrará sus habilidades.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>HTML</tool>
+			<tool>FLASH</tool>
+		</tools>
+		<images>			
+			<image>works/web/powerchips/1.jpeg</image>
+			<image>works/web/powerchips/2.jpeg</image>
+			<image>works/web/powerchips/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="optima">
+		<title>Óptima</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Óptima S.A. Vivienda y construcción</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.optima.com.co</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página de uso informativo, teniendo como cualidad la publicación de los proyectos recientes de la constructora. De fácil uso, ofrece a sus clientes estar informados comunicándose con redes sociales como msn y skype.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/optima/1.jpeg</image>
+			<image>works/web/optima/2.jpeg</image>
+			<image>works/web/optima/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="provimarcas">
+		<title>Provimarcas</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Provimarcas S.A.S.</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.provimarcas.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página de uso informativo con un diseño diferente e innovador, siempre innovador. Se muestra el contenido de modo accesible y fácil de asimilar estando dividida en 8 secciones, se ofrece un vinculo externo al servicio a clientes.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/provimarcas/1.jpeg</image>
+			<image>works/web/provimarcas/2.jpeg</image>
+			<image>works/web/provimarcas/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="cys">
+		<title>C&amp;S</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>C&amp;S Tecnología S.A.</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.cystecnologia.com.co</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página básica informativa con un diseño limpio que expresa solidez y frescura.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>FLASH</tool>
+			<tool>HTML</tool>
+			<tool>CSS</tool>
+			<tool>JQUERY</tool>
+		</tools>
+		<images>			
+			<image>works/web/cys/1.jpeg</image>
+			<image>works/web/cys/2.jpeg</image>
+			<image>works/web/cys/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="ada">
+		<title>ADA</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Aerolínea de Antioquia</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.ada-aero.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página de uso informativo, teniendo como cualidad la publicación de las noticias más relevantes de la marca, los itinerarios de sus vuelos, etc. Contiene módulos de productos, compras de tiquetes aéreos y montaje de pauta comercial.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/ada/1.jpeg</image>
+			<image>works/web/ada/2.jpeg</image>
+			<image>works/web/ada/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="arvi">
+		<title>Parque Arví</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Corporación Parque Regional Ecoturístico Arví</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.parquearvi.org</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Una de las páginas mas complejas de Pacífica, con acceso a la información de diferentes cuentas como Facebook, Youtube, etc. Se optó por un diseño sobrio y neutro para la fácil ubicación de su contenido.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/arvi/1.jpeg</image>
+			<image>works/web/arvi/2.jpeg</image>
+			<image>works/web/arvi/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="univentas">
+		<title>Univentas</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Centro de la remodelación Univentas</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.univentas.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Siendo una empresa que ofrece tantos servicios se optó por un diseño sobrio y neutro para la fácil ubicación de su contenido.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+			<tool>FLASH</tool>
+		</tools>
+		<images>			
+			<image>works/web/univentas/1.jpeg</image>
+			<image>works/web/univentas/2.jpeg</image>
+			<image>works/web/univentas/3.jpeg</image>
+			<image>works/web/univentas/4.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="osl">
+		<title>Óptica Santa Lucía</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Óptica Santa Lucía</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.osl.com.co</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página de uso informativo, teniendo como cualidad la publicación de las noticias más relevantes de la marca. Contiene módulos de productos, compras y montaje de pauta comercial.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/osl/1.jpeg</image>
+			<image>works/web/osl/2.jpeg</image>
+			<image>works/web/osl/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="molinos1">
+		<title>Centro Comercial Los Molinos</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Centro Comercial Los Molinos</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.losmolinos.com.co</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Creada pensado en la facilidad de acceso a información, y para mantener informados a los usuarios del centro comercial se creó un módulo de calendario, para que pudieran ver los eventos diarios del Centro Comercial.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PLANEO CMS</tool>
+		</tools>
+		<images>			
+			<image>works/web/molinos1/1.jpeg</image>
+			<image>works/web/molinos1/2.jpeg</image>
+			<image>works/web/molinos1/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="bass">
+		<title>Capitán Bass, Pesca y Aventura</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Álvaro Molina</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.pescacapitanbass.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Página informativa con un diseño complejo, de alto impacto que muestra de una manera lúdica el deporte de la pesca con mosca.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>HTML</tool>
+			<tool>FLASH</tool>
+		</tools>
+		<images>			
+			<image>works/web/bass/1.jpeg</image>
+			<image>works/web/bass/2.jpeg</image>
+			<image>works/web/bass/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="anita">
+		<title>La Cafetiere de Anita</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Anita Botero</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.lacafetieredeanita.com</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Destacando la sofisticación del local y el ambiente contemporáneo se creó una página funcional y práctica.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>HTML</tool>
+			<tool>CSS</tool>
+			<tool>JQUERY</tool>
+		</tools>
+		<images>			
+			<image>works/web/anita/1.jpeg</image>
+			<image>works/web/anita/2.jpeg</image>
+			<image>works/web/anita/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="kinky">
+		<title>Kinky, Mascotas con estilo</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Emiliana &amp; Valeria Martínez</content>
+			</group>
+			<group>
+				<title>Sitio web</title>
+				<content>www.kinkymascotas.co</content>
+			</group>
+		</groups>
+		<images>			
+			<image>works/marca/kinky/1.jpeg</image>
+			<image>works/marca/kinky/2.jpeg</image>
+			<image>works/marca/kinky/3.jpeg</image>
+			<image>works/marca/kinky/4.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="ilustracion">
+		<title>Ilustraciones varias</title>
+		<images>			
+			<image>works/marca/ilustracion/1.jpeg</image>
+			<image>works/marca/ilustracion/2.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="logos">
+		<title>Logotipos y marcas</title>
+		<groups>
+			<group>
+				<title>Conceptos</title>
+				<content>Algunos logotipos realizados en los últimos cuatro años.</content>
+			</group>		
+		</groups>
+		<images>			
+			<image>works/marca/logos/1.jpeg</image>
+			<image>works/marca/logos/2.jpeg</image>
+			<image>works/marca/logos/3.jpeg</image>
+			<image>works/marca/logos/4.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="odelsa">
+		<title>Odelsa Logística</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Odelsa Logística</content>
+			</group>		
+		</groups>
+		<images>			
+			<image>works/marca/odelsa/1.jpeg</image>
+			<image>works/marca/odelsa/2.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="doblevia">
+		<title>Doblevía Vinos Nobles</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Daniel Calle</content>
+			</group>		
+		</groups>
+		<images>			
+			<image>works/marca/doblevia/1.jpeg</image>
+			<image>works/marca/doblevia/2.jpeg</image>
+			<image>works/marca/doblevia/3.jpeg</image>
+			<image>works/marca/doblevia/4.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="arkha">
+		<title>Arkha S.A.S.</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>ARKHA S.A.S.</content>
+			</group>		
+		</groups>
+		<images>			
+			<image>works/marca/arkha/1.jpeg</image>
+			<image>works/marca/arkha/2.jpeg</image>
+			<image>works/marca/arkha/3.jpeg</image>
+		</images>	
+	</work>
+	
+	<work id="selva">
+		<title>Teaser A la selva</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Teaser largometraje</content>
+			</group>	
+			<group>
+				<title>Cliente</title>
+				<content>Guacharaca producciones / Pacífica diseño</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Teaser animado para el largometraje A LA SELVA en co-producción con GUACHARACA producciones. Actualmente esta participando en la convocatoria del Fondo para el Desarrollo Cinematográfico (FDC) del Ministerio de Cultura de Colombia.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>FLASH</tool>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			26739670
+		</video>	
+	</work>
+
+	<work id="powerchips2">
+		<title>Powerchips</title>
+		<groups>
+			<group>
+				<title>Cliente</title>
+				<content>Grupo Nutresa, MiniChips</content>
+			</group>
+			<group>
+				<title>Referencia 1</title>
+				<content>Extraterrestre - Powerchips</content>
+			</group>
+			<group>
+				<title>Referencia 2</title>
+				<content>Powerchips Facebook</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Comercial web realizado para la línea Minichips de Noel. Este video hizo parte de una estrategia aplicada a Facebook y otras redes sociales.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			22308934
+		</video>
+	</work>
+	
+	<work id="tcc">
+		<title>TCC</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>TCC Corazón</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>TCC - 180°</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Comercial para pauta en televisón realizado para la agencia 180º Publicidad y su cliente TCC.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			22307501
+		</video>
+	</work>
+	
+	<work id="cubik">
+		<title>Cubik Apartamentos</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Arma tu espacio - Cubik</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Materia Gris Publicidad</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Este video se hizo para la agencia de publicidad Materia Gris. Buenos resultados se obtienen cuando se mezcla animación y video. Los créditos principales se los lleva la rutina de mímica hecha por el actor Jorge Cano.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>FLASH</tool>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			11699106
+		</video>
+	</work>
+	
+	<work id="perfectbra">
+		<title>Perfectbra</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Leonisa Perfectbra</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Perro Bravo - Leonisa</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Infografía animada. Se animaron 7 referencias distintas de brassier y la pieza final, la cual incluía testimonios en video, fue producida por Juan Uribe de Perro Bravo.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			11698375
+		</video>
+	</work>
+	
+	<work id="leonisa">
+		<title>Leonisa</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Leonisa Latina</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Perro Bravo - Leonisa</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Otro trabajo para Perro Bravo que se usó como ayuda visual de venta. Un producto sencillo pero efectivo y económico de hacer, que sólo usó como material de trabajo un catálogo de marca impreso.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			11698727
+		</video>
+	</work>
+	
+	<work id="nadja">
+		<title>Nadja o el Olvido</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Créditos iniciales</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Daniel Preciado - M.U.T.E.</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Esta secuencia de créditos iniciales se hizo para un cortometraje animado en stopmotion en el que Pacífica participó como coproductor. Felizmente el cortometraje ganó un premio India Catalina en la pasada entrega. Aquí aparece sin audio.</content>
+			</group>	
+		</groups>
+		<tools>
+			<tool>PHOTOSHOP</tool>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>
+			11698606
+		</video>
+	</work>
+	
+	<work id="contreebute">
+		<title>Contreebute</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Conciencia del medio ambiente.</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Contreebute.</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Motiongraphics con alto contenido tipográfico para la información del público sobre el servicio que presta la empresa "CONTREEBUTE" al medio ambiente.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>		
+			7073661
+		</video>
+	</work>
+	
+	<work id="minichips">
+		<title>MiniChips</title>
+		<groups>
+			<group>
+				<title>Referencia</title>
+				<content>Comercial Promoción MTV</content>
+			</group>
+			<group>
+				<title>Cliente</title>
+				<content>Grupo Nutresa, MiniChips</content>
+			</group>
+			<group>
+				<title>Concepto</title>
+				<content>Stopmotion con los personajes del universo "MINICHIPS" invitando a concursar por los premios de la promoción.</content>
+			</group>
+		</groups>
+		<tools>
+			<tool>AFTER EFFECTS</tool>
+		</tools>
+		<video>		
+			7073606
+		</video>
+	</work>
+	
+</works>
