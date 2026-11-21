@@ -1,64 +1,62 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="author" content="Juanplav www.juanplav.com"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Juanplav www.juanplav.com" />
+	<meta name="description" content="Juan needs a haircut — 2012 frontend exercise in HTML5 and CSS3 by Juan Plata Vera (Juanplav)." />
 	<title>Juan needs a haircut</title>
-	<link rel="stylesheet" type="text/css" media="all" href="css/style.css"  />
-	<link rel="shortcut icon" href="css/images/favicon.png" />
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
-	<script src="js/modernizr.js" language="javascript" type="text/javascript"></script>
-    <script src="js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
-	<script src="js/lightbox.js" language="javascript"></script>
-    <script src="js/delay.js" language="javascript" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" type="image/png" href="css/images/favicon.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/lightbox.css" />
+	<script src="js/lightbox.js" defer></script>
 </head>
 <body>
-		<nav>
-			<span>MENU</span>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="juan.html">Juan</a></li>
-				<li><a class="current" href="style.html">Style</a></li>
-				<li><a href="cut.html">Cut</a></li>
-				<li><a href="more.html">+</a></li>
-			</ul>
-		</nav>
+	<nav aria-label="Main navigation">
+		<span>MENU</span>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="juan.html">Juan</a></li>
+			<li><a class="current" href="style.html">Style</a></li>
+			<li><a href="cut.html">Cut</a></li>
+			<li><a href="more.html">+</a></li>
+		</ul>
+	</nav>
 
-		<header>
-			<h1><a href="index.html">Juan needs a haircut
-					<span>CLICK TO GO BACK TO THE HOME</span>
-				</a>
-			</h1>
-		</header>
-
-		<section>
-			<h2>It's just a matter of <strong>style</strong>.</h2>
-			<ul>
-				<a href="images/aiden.jpg" rel="lightbox[1]" title="The Grimshaw Style">
-						<img src="images/styleaiden.png" />
-				</a>
-				<a href="images/unknown.jpg" rel="lightbox[1]" title="The Unknown Style">
-					<img src="images/styleunknown.png" />
-				</a>
-				<a href="images/logan.jpg" rel="lightbox[1]" title="The Lerman Style">
-					<img src="images/stylelogan.png" />
-				</a>
-				<a href="images/beckam.jpg" rel="lightbox[1]" title="The Beckam Style">
-					<img src="images/stylebeckam.png" />
-				</a>
-				<a href="images/jensen.png" rel="lightbox[1]" title="The Ackles Style">
-					<img src="images/stylejensen.png" />
-				</a>
-				<a href="images/zayn.jpg" rel="lightbox[1]" title="The Malik Style">
-					<img src="images/stylezayn.png" />
-				</a>
-			</ul>
-		</section>
-
-		<footer>
-			<a class="tijera"></a>
-			<a class="copy" href="http://www.juanplav.com">BY JUANPLAV</a>
-		</footer>
+	<header>
+		<h1><a href="index.html">Juan needs a haircut
+			<span>CLICK TO GO BACK TO THE HOME</span>
+		</a></h1>
+	</header>
+	<section>
+		<h2>It's just a matter of <strong>style</strong>.</h2>
+		<ul>
+			<a href="images/aiden.webp" rel="lightbox[1]" title="The Grimshaw Style">
+				<img src="images/styleaiden.webp" alt="The Grimshaw Style" loading="lazy" />
+			</a>
+			<a href="images/unknown.webp" rel="lightbox[1]" title="The Unknown Style">
+				<img src="images/styleunknown.webp" alt="The Unknown Style" loading="lazy" />
+			</a>
+			<a href="images/logan.webp" rel="lightbox[1]" title="The Lerman Style">
+				<img src="images/stylelogan.webp" alt="The Lerman Style" loading="lazy" />
+			</a>
+			<a href="images/beckam.webp" rel="lightbox[1]" title="The Beckam Style">
+				<img src="images/stylebeckam.webp" alt="The Beckam Style" loading="lazy" />
+			</a>
+			<a href="images/jensen.webp" rel="lightbox[1]" title="The Ackles Style">
+				<img src="images/stylejensen.webp" alt="The Ackles Style" loading="lazy" />
+			</a>
+			<a href="images/zayn.webp" rel="lightbox[1]" title="The Malik Style">
+				<img src="images/stylezayn.webp" alt="The Malik Style" loading="lazy" />
+			</a>
+		</ul>
+	</section>
+	<footer>
+		<a class="tijera" aria-hidden="true"></a>
+		<a class="copy" href="https://www.juanplav.com" target="_blank" rel="noopener noreferrer">BY JUANPLAV</a>
+	</footer>
 </body>
 </html>

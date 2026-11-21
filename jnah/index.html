@@ -1,47 +1,37 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="author" content="Juanplav www.juanplav.com"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Juanplav www.juanplav.com" />
+	<meta name="description" content="Juan needs a haircut — 2012 frontend exercise in HTML5 and CSS3 by Juan Plata Vera (Juanplav)." />
 	<title>Juan needs a haircut</title>
-	<link rel="stylesheet" type="text/css" media="all" href="css/style.css"  />
-	<link rel="shortcut icon" href="css/images/favicon.png" />
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-    <script src="js/modernizr.js" language="javascript" type="text/javascript"></script>
-    <script src="js/jquery-1.7.2.min.js" language="javascript" type="text/javascript"></script>
-    <script src="js/delay.js" language="javascript" type="text/javascript"></script>
-    <script type="text/javascript" language="javascript">
-    	function sizeContent() {
-		    var alto = $(window).height();
-		    var nuevoalto = alto + "px";
-		    $("body").css("background-size", nuevoalto);
-		}
-    	$(window).resize(sizeContent);
-    	$(document).ready(sizeContent());
-    </script>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" type="image/png" href="css/images/favicon.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="preload" as="image" href="css/images/fondo.webp" fetchpriority="high" />
 </head>
-<body>
-		<nav>
-			<span>MENU</span>
-			<ul>
-				<li><a class="current" href="index.html">Home</a></li>
-				<li><a href="juan.html">Juan</a></li>
-				<li><a href="style.html">Style</a></li>
-				<li><a href="cut.html">Cut</a></li>
-				<li><a href="more.html">+</a></li>
-			</ul>
-		</nav>
+<body class="home">
+	<nav aria-label="Main navigation">
+		<span>MENU</span>
+		<ul>
+			<li><a class="current" href="index.html">Home</a></li>
+			<li><a href="juan.html">Juan</a></li>
+			<li><a href="style.html">Style</a></li>
+			<li><a href="cut.html">Cut</a></li>
+			<li><a href="more.html">+</a></li>
+		</ul>
+	</nav>
 
-		<header>
-			<h1><a href="index.html">Juan needs a haircut</a>
-			</h1>
-
-			<a class="logo" href="index.html"></a>
-		</header>
-
-		<footer>
-			<a class="tijera"></a>
-			<a class="copy" href="http://www.juanplav.com">BY JUANPLAV</a>
-		</footer>
+	<header>
+		<h1><a href="index.html">Juan needs a haircut</a></h1>
+		<a class="logo" href="index.html" aria-label="Juan needs a haircut home"></a>
+	</header>
+	<footer>
+		<a class="tijera" aria-hidden="true"></a>
+		<a class="copy" href="https://www.juanplav.com" target="_blank" rel="noopener noreferrer">BY JUANPLAV</a>
+	</footer>
 </body>
 </html>

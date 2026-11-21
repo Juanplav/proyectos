@@ -5,7 +5,6 @@
   left: 0;
   z-index: 9999;
   background: white;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
   display: none;
 }
@@ -36,7 +35,6 @@
 .lb-outerContainer {
   position: relative;
   background-color: black;
-  *zoom: 1;
   width: 250px;
   height: 250px;
   margin: 0 auto;
@@ -107,19 +105,18 @@
 
 /* line 81, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url(images/prev.png) left 48% no-repeat;
+  background: url(images/prev.webp) left 48% no-repeat;
 }
 
 /* line 85, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url(images/next.png) right 48% no-repeat;
+  background: url(images/next.webp) right 48% no-repeat;
 }
 
 /* line 88, ../sass/lightbox.sass */
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
-  *zoom: 1;
   width: 100%;
   position:relative;
 }

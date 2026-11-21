@@ -1,5 +1,5 @@
 body {
-	background: white url(images/fondo.jpg) no-repeat left top;
+	background: white url(images/fondo.webp) no-repeat left top;
 	font-family: 'Arvo', serif;
 	font-size: 13px;
 	font-weight: normal;
@@ -42,7 +42,7 @@ h1 {
 	font-size: 35px;
 	display: block;
 	padding: 2px 3px 2px 3px;
-	background: url(images/trans.png) repeat;
+	background: url(images/trans.webp) repeat;
 	border-top: 5px solid black;
 	width: 390px;
 	margin: 0 auto;
@@ -66,8 +66,6 @@ h1 a span {
 	background: transparent;
 	padding: 2px;
 	z-index: -2;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
 	opacity:0;
 
 	-webkit-transition: all 0.3s ease-in-out;
@@ -83,8 +81,6 @@ h1 a:hover span {
 	z-index: 1;
 	color: white !important;
 	background: black;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	opacity:1;
 }
 
@@ -108,7 +104,7 @@ nav {
 	left: 0px;
 	top: 0px;
 	color: white;
-	background: url(images/menu.png) no-repeat top left;
+	background: url(images/menu.webp) no-repeat top left;
 	padding: 15px 0px 0px 0px;
 	z-index: 1;
 }
@@ -116,7 +112,7 @@ nav {
 nav span {
 	letter-spacing: -1px;
 	font-size: 14px;
-	background: url(images/menuli.png) no-repeat top right;
+	background: url(images/menuli.webp) no-repeat top right;
 	color: black;
 	padding: 2px 52px 2px 24px;
 	margin: 0px 0px 0px -20px;
@@ -141,7 +137,7 @@ nav ul li a {
 	margin: 0px;
 	color: white;
 	float: left;
-	background: url(images/menuli.png) no-repeat -150px top;
+	background: url(images/menuli.webp) no-repeat -150px top;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -170,7 +166,7 @@ a.logo {
 	left: 48%;
 	width: 50px;
 	height: 50px;
-	background: url(images/logo.png) no-repeat top center;
+	background: url(images/logo.webp) no-repeat top center;
 
 	-webkit-transition: all 0.6s ease-in-out;
 	-moz-transition: all 0.6s ease-in-out;
@@ -180,7 +176,7 @@ a.logo {
 }
 
 a.logo:hover {
-	background: url(images/logo2.png) no-repeat bottom center;
+	background: url(images/logo2.webp) no-repeat bottom center;
 
 	-webkit-transform: scale(1.2) rotate(315deg);
 	-moz-transform: scale(1.2) rotate(315deg);
@@ -192,7 +188,7 @@ a.logo:hover {
 section {
 	display: block;
 	width: 362px;
-	background: url(images/trans.png) repeat;
+	background: url(images/trans.webp) repeat;
 	margin: 0 auto;
 	padding: 5px 15px 10px 15px;
 	border-top: solid black 8px;
@@ -211,16 +207,14 @@ section ul li {
 }
 
 section ul li.yes {
-	background: url(images/yes.png) no-repeat top left;
+	background: url(images/yes.webp) no-repeat top left;
 }
 
 section ul li.no {
-	background: url(images/no.png) no-repeat top left;
+	background: url(images/no.webp) no-repeat top left;
 }
 
 section a img {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-	filter: alpha(opacity=60);
 	opacity: 0.6;
 
 	-webkit-transition: all 0.4s ease-in-out;
@@ -231,8 +225,6 @@ section a img {
 }
 
 section a:hover img {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	opacity: 1;
 
 	-webkit-transform: scale(1.05);
@@ -260,7 +252,7 @@ section #juan2 {
 section a.twitter {
 	font-weight: bold;
 	margin: 10px auto 10px auto;
-	background: url(images/twitter.png) no-repeat top left;
+	background: url(images/twitter.webp) no-repeat top left;
 	padding: 16px 0 0 58px;
 	display: block;
 	color: black;
@@ -270,7 +262,7 @@ section a.twitter {
 }
 
 section a.twitter:hover {
-	background: url(images/twitter2.png) no-repeat top left;
+	background: url(images/twitter2.webp) no-repeat top left;
 	color: white;
 }
 
@@ -287,7 +279,7 @@ footer a.copy {
 	display: block;
 	float: right;
 	margin: -10px 30px 0px 0px;
-	background: url(images/copy.png) no-repeat top left;
+	background: url(images/copy.webp) no-repeat top left;
 	padding: 3px 0px 0px 6px;
 	color: white;
 	font-size: 10px;
@@ -302,7 +294,7 @@ footer a.copy {
 }
 
 footer a.copy:hover {
-	background: url(images/copy.png) no-repeat bottom left;
+	background: url(images/copy.webp) no-repeat bottom left;
 }
 
 footer a.tijera {
@@ -311,7 +303,7 @@ footer a.tijera {
 	width: 25px;
 	height: 20px;
 	margin: -10px 0px 0px 5px;
-	background: url(images/tijeras.png) no-repeat top right;
+	background: url(images/tijeras.webp) no-repeat top right;
 
 	-webkit-transition: all 2s ease-in-out;
 	-moz-transition: all 2s ease-in-out;
@@ -324,4 +316,16 @@ footer a.tijera {
 footer a.tijera:hover {
 	margin: -10px 0px 0px 30px;
 	width: 500px;
+}
+body.home {
+	background-size: 100vh;
+}
+
+@keyframes sectionFadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+section {
+	animation: sectionFadeIn 0.5s ease-in-out both;
 }
